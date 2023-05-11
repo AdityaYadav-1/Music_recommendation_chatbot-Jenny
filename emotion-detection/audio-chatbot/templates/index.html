@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Jenny Voicebot</title>
+    </head>
+    <body>
+        <h1>Jenny Voicebot</h1>
+        <button type="button" onclick="playMusic()">Speak</button>
+        <script>
+            function playMusic() {
+                var xhr = new XMLHttpRequest();
+                xhr.open("POST", "/play_music", true);
+                xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
+                xhr.send();
+            }
+        </script>
+    </body>
+</html>
