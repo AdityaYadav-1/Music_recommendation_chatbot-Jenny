@@ -16,7 +16,7 @@ function ChatbotPage({ logout }) {
             <Link to="http://127.0.0.1:5000/">Text Chatbot</Link>
           </li>
           <li>
-            <a href="file://D:/sample/Project1.0/my-app/emotion-detection/audio-chatbot/app.pyw">Audio Chatbot</a>
+            <a href="http://127.0.0.1:5002/">Audio Chatbot</a>
           </li>
           <li>
             <Link to="http://127.0.0.1:5001/">Video Chatbot</Link>
@@ -36,7 +36,8 @@ function ChatbotPage({ logout }) {
             Are you tired of listening to the same music over and over again?
             Music-Bot is here to help! Our chatbot uses advanced AI technology
             to recommend personalized music based on your preferences. Simply
-            start chatting with our chatbot to discover new music and expand
+            start chatting with our chatbot, or just scan your face to let the 
+            bot detect your mood or just say the song name to discover new music and expand
             your music taste.
           </p>
         </div>
